@@ -15,7 +15,7 @@ public class SafeVarArgsMain {
         // Heap polution
         Object[] objectArray = list; // Itt elvész a tipus információ
         objectArray[1] = List.of(1,2);
-        System.out.println(list[1].get(0)); // ClassCastException : Integer->String
+        //System.out.println(list[1].get(0)); // ClassCastException : Integer->String
 
 
     }

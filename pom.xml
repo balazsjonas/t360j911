@@ -18,6 +18,7 @@
        <module>j9</module>
        <module>j9backend</module>
        <module>j9frontend</module>
+       <module>j9collections</module>
    </modules>
 
     <build>
