@@ -12,10 +12,23 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
+    <packaging>pom</packaging>
 
    <modules>
        <module>j9</module>
-       <module>j9mod</module>
+       <module>j9backend</module>
+       <module>j9frontend</module>
    </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+            </plugin>
+        </plugins>
+    </build>
+
 
 </project>
