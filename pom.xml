@@ -15,6 +15,7 @@
 
    <modules>
        <module>j9</module>
+       <module>j9mod</module>
    </modules>
 
 </project>
